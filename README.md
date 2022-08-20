@@ -15,22 +15,26 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ### Pré-requisitos
 - É necessário possuir o Node.js e o Expo instalados no computador
 - Também, é preciso ter um gerenciador de pacotes seja o NPM ou Yarn.
+- Clone esse repositorio
 ### Executando  
 
 
   #### API
   ```
-   $ cd server
+   Abra a pasta server no seu terminal
+   
    Instalando as dependências do projeto:
-   $ yarn ou npm install
+   Rode o comando: npm install
    Inicie a API:
-   $ yarn run start # ou npm run start
+   Rode o comando: npm run start
   ```
   #### Aplicação web
   ```
+   Abra a pasta web no seu terminal
+   
    $ cd web
    Instalando as dependências do projeto:
-   $ yarn # ou npm install
+   Rode o comando: npm install
    Inicie a aplicação web:
-   $ yarn run dev # ou npm run dev
+   Rode o comando: npm run dev
   ```
