@@ -2,14 +2,14 @@ import './styles.css'
 
 export default function UserCard({user}){
   return(
-    <div class="content">
-      <div class="card">
-        <div class="profile">
+    <div className="content">
+      <div className="card">
+        <div className="profile">
           <img src="https://xsgames.co/randomusers/avatar.php?g=pixel" />
-          <div class="profileinfo">
+          <div className="profileinfo">
             <h1>{user.name}</h1>
-            <p class="username"> @{user.username} </p>
-            <p class="id">id: {user.id} </p>
+            <p className="username"> @{user.username} </p>
+            <p className="id">id: {user.id} </p>
             <a href={`mailto:${user.email}`}>{user.email} </a>
           </div>
         </div>
