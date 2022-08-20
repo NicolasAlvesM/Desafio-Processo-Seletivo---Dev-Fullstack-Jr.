@@ -1,5 +1,5 @@
 ## Oque é?
-é um projeto que foi desenvolvido para um processo seletivo, onde é consumida uma api externa recebendo usuários e devolve para o frontend esses usuários formatados.
+é um projeto que foi desenvolvido para um processo seletivo, onde uma api externa é consumida recebendo usuários e devolve para o frontend esses usuários formatados.
 
 ## Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
