@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import UserCard from "../../assets/components/UserCard";
 import { userService } from "../../services/users";
+import sortByName from "../../utils/sort-helper";
 import './styles.css';
 
 export default function Users(){
@@ -8,6 +9,7 @@ export default function Users(){
 
   useEffect(()=>{
     userService.getUsers(5).then(({data})=>{
+      sortByName(data);
       setUsers(data);
     });
   },[]);
