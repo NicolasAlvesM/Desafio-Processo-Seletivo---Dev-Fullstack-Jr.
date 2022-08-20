@@ -21,16 +21,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   #### API
   ```
    $ cd server
-   ##### Instalando as dependências do projeto.
-   $ yarn # ou npm install
-   ##### Inicie a API
+   Instalando as dependências do projeto:
+   $ yarn ou npm install
+   Inicie a API:
    $ yarn run start # ou npm run start
   ```
   #### Aplicação web
   ```
    $ cd web
-   ##### Instalando as dependências do projeto.
+   Instalando as dependências do projeto:
    $ yarn # ou npm install
-   ##### Inicie a aplicação web
+   Inicie a aplicação web:
    $ yarn run dev # ou npm run dev
   ```
