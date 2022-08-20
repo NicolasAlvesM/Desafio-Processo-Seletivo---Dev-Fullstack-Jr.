@@ -1,0 +1,11 @@
+.users-container{
+  display: flex;
+  flex-wrap: wrap;
+} 
+.section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
